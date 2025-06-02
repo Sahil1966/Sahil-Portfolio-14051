@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Patel</title>
+    <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/v2/D5603AQFyXCt0ZYEm_w/profile-displayphoto-shrink_400_400/B56ZaOwfinGoAg-/0/1746151800800?e=1752710400&v=beta&t=Wg-5IPqtbRAfQ2Y3WN277a3mOEmPGTDATChdGKwe0sU">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Sahil Portfolio</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                    <label id="theme-toggle-button" img="./Resources/themes.png">
+                        <input type="checkbox" id="toggle" />
+                        <svg width="50" height="30" viewBox="0 0 50 30" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="50" height="30" rx="15" fill="#83cbd8" />
+                        <circle id="toggle-icon" cx="15" cy="15" r="10" fill="#f8e664" />
+                        </svg>
+                    </label>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 home-content text-center text-lg-start mt-3 mt-lg-0">
+                    <h1>Hi, I am <span class="typed-text">Sahil</span></h1>
+                    <h2 class="typing-wrapper">
+                        <span class="static-text">I'm a</span>
+                        <span class="typing-text"></span>
+                    </h2>
+                    <p class="lead">Delivering clarity from complexity – because informed decisions start with data.</p>
+                    <div class="home-social-links">
+                        <a href="https://github.com/Sahil1966" target="_blank" class="home-social-link github"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sahil-patel21/" target="_blank" class="home-social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="text-center text-lg-start mt-4">
+                        <a href="#projects" class="btn btn-primary btn-lg"><i class="fas fa-code me-2"></i>Explore My Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mb-3 mb-lg-0">
+                    <div class="home-img">
+                        <img src="./Resources/Sahil.jpeg" alt="Sahil" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title"><span>About</span> <span>Me</span></h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="about-content text-center">
+                        <p class="lead mb-4">Hello! I'm an enthusiastic Data Scientist Trainee with a passion for uncovering insights and solving real-world problems through data.</p>
+                        <p class="mb-4">I work with tools like Python, SQL, Pandas, Scikit-learn, PySpark, and Hive SQL, and I'm experienced in building data pipelines and analytical workflows using Azure Data Factory, Databricks, Synapse, and Data Lake. I also leverage Power BI and Matplotlib to visualize data and support data-driven decisions.</p>
+                        <p class="mb-4 highlight-text">With a background in machine learning, deep learning, and big data technologies like Spark and Hadoop, I enjoy exploring AI applications while constantly sharpening my analytical and problem-solving skills.</p>
+                        <div class="mt-4 text-center">
+                            <a href="https://drive.google.com/file/d/1Mib9fTeyKJjU20b6zL0hL1kPFP-qIwmB/view?usp=sharing" target="_blank" class="btn btn-primary btn-lg me-3"><i class="fas fa-eye me-2"></i>View Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title"><span>Technical</span> <span>Skills</span></h2>
+            </div>
+
+            <!-- Technical Skills-->
+            <div class="skills-category">
+                <div class="skills-container">
+                    <div class="skill-item"><i class="fab fa-html5"></i><span class="skill-name">HTML5</span></div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i><span class="skill-name">CSS3</span></div>
+                    <div class="skill-item"><i class="fab fa-js"></i><span class="skill-name">JavaScript</span></div>
+                    <div class="skill-item"><i class="fab fa-python"></i><span class="skill-name">Python</span></div>
+                    <div class="skill-item"><img src="./Resources/Apache Spark.png" alt="PySpark"><span class="skill-name">PySpark</span></div>
+                    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span class="skill-name">MySQL</span></div>
+                    <div class="skill-item"> <img src="./Resources/machine-learning_2172779.png" alt="Machine Learning"><span class="skill-name">Machine Learning</span></div>
+                    <div class="skill-item"> <img src="./Resources/deep-learning_8637101.png" alt="Deep Learning"><span class="skill-name">Deep Learning</span></div>
+                    <div class="skill-item"> <img src="./Resources/server_8745097.png" alt="Data Engineering"><span class="skill-name">Data Engineering</span></div>
+                    <div class="skill-item"> <img src="./Resources/icons8-azure-48.png" alt="Azure"><span class="skill-name">Azure</span></div>
+                    <div class="skill-item"> <img src="./Resources/NumPy.png" alt="Numpy"><span class="skill-name">Numpy</span></div>
+                    <div class="skill-item"> <img src="./Resources/Pandas.png" alt="Pandas"><span class="skill-name">Pandas</span></div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title"><span>My</span> <span>Projects</span></h2>
+            </div>
+            <div class="row g-4">
+                <!-- Network Intrusion Detection System -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="./Resources/Create an image of a.png" alt="Network-Intrusion-Detection App" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <!-- <div class="tech-stack">
+                                        <span>Python</span>
+                                        <span>Pandas</span>
+                                        <span>Numpy</span>
+                                        <span>Scikit-learn</span>
+                                        <span>AWS CodePipeline</span>
+                                        <span>AWS Beanstalk</span>
+                                    </div> -->
+                                    <div class="project-links">
+                                        <a href="https://github.com/Sahil1966/Network-Intrusion-Detection" target="_blank" class="btn-code"><i class="fab fa-github"></i>View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mycotoxin Prediction -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="./Resources/Mycotoxin Prediction.png" alt="Mycotoxin Prediction" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <!-- <div class="tech-stack">
+                                        <span>Python</span>
+                                        <span>Pandas</span>
+                                        <span>Numpy</span>
+                                        <span>XGBoost</span>
+                                    </div> -->
+                                    <div class="project-links">
+                                        <a href="https://github.com/Sahil1966/Mycotoxin-Prediction/tree/main" target="_blank" class="btn-code"><i class="fab fa-github"></i>View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Happy Minds Mental App -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <img src="./Resources/Happy Minds Mental Health.png" alt="Happy Minds Mental App" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <!-- <div class="tech-stack">
+                                        <span>React Native</span>
+                                        <span>Node.js</span>
+                                        <span>Google Firebase</span>
+                                        <span>MongoDB</span>
+                                    </div> -->
+                                    <div class="project-links">
+                                        <a href="https://github.com/Sahil1966/HappyMinds" target="_blank" class="btn-code"><i class="fab fa-github"></i>View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title"><span>My</span> <span>Certificates</span></h2>
+            </div>
+            <div class="certificates-grid">
+                <!-- Python Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/Python.png" alt="Python">
+                        <div class="certificate-overlay">
+                            <h4>Python Essentials</h4>
+                            <p>Cisco</p>
+                            <a href="https://drive.google.com/file/d/1JAPpZKCZ2rHtlh2HrcbiHXITbbMYXddj/view?usp=sharing" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Javascript Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/Javascript.png" alt="JavaScript">
+                        <div class="certificate-overlay">
+                            <h4>JavaScript Essentials</h4>
+                            <p>Cisco</p>
+                            <a href="https://drive.google.com/file/d/1s_EMGZatmtOTUvPB7OakvvWBsf3uF_kE/view?usp=sharing" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/AWS Machine Learning.png" alt="ML Certificate">
+                        <div class="certificate-overlay">
+                            <h4>Machine Learning</h4>
+                            <p>Udacity</p>
+                            <a href="https://drive.google.com/file/d/1B1qoh9e3R-5z0Ky5ZW7p-nugQ-BOxldc/view?usp=sharing" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AWS Cloud Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/AWS Cloud Foundations.png" alt="AWS Cloud Certificate">
+                        <div class="certificate-overlay">
+                            <h4>AWS Cloud Foundations</h4>
+                            <p>AWS</p>
+                            <a href="https://drive.google.com/file/d/1xufpCSJdyoIwlLOyq8vBUENITQgGaaW0/view?usp=sharing" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/IIITD Internship (1).png" alt="Internship Certificate">
+                        <div class="certificate-overlay">
+                            <h4>Web Development Internship</h4>
+                            <p>IIIT Delhi</p>
+                            <a href="./Resources/IIITD CERTIFICATE.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CDAC Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="./Resources/Cdac certificate.jpeg" alt="CDAC Certificate">
+                        <div class="certificate-overlay">
+                            <h4>Big Data Analytics</h4>
+                            <p>Centre for Development of Advanced Computing (C-DAC)</p>
+                            <a href="https://drive.google.com/file/d/1UKgZjPsYj_JQ-0clrwRXqxMBi6hnjkLJ/view?usp=sharing" target="_blank" class="view-certificate">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title"><span>Contact</span> <span>Me</span></h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+                        <input type="hidden" name="access_key" value="6054af18-7266-4cc6-a4bc-91d6b52acbed">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <div class="mb-3"><input type="text" name="name" class="form-control" placeholder="Name" required></div>
+                        <div class="mb-3"><input type="email" name="email" class="form-control" placeholder="Email" required></div>
+                        <div class="mb-3"><textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea></div>
+                        <div class="text-center"><button type="submit" class="btn btn-primary">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-12">
+                    <p class="footer-copyright mb-0">
+                        © 2025 All Rights Reserved | Designed & Developed by 
+                        <a href="https://www.linkedin.com/in/sahil-patel21/" target="_blank" class="footer-name">Sahil</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="./JS/script.js"></script>
+    
+    <script>
+        // Theme Switcher
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.getElementById('toggle');
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            toggle.checked = savedTheme === 'dark';
+            
+            toggle.addEventListener('change', () => {
+                const newTheme = toggle.checked ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+
+            // Typing Animation
+            const texts = ["Data Scientist Trainee", "Machine Learning Enthusiast"];
+            const typingText = document.querySelector('.typing-text');
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentText = texts[textIndex];
+                typingText.textContent = isDeleting ? currentText.substring(0, charIndex - 1) : currentText.substring(0, charIndex + 1);
+                charIndex = isDeleting ? charIndex - 1 : charIndex + 1;
+
+                let typeSpeed = isDeleting ? 50 : 100;
+                if (!isDeleting && charIndex === currentText.length) {
+                    typeSpeed = 1500;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    typeSpeed = 500;
+                }
+                setTimeout(type, typeSpeed);
+            }
+            type();
+
+            // Navbar active state
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - sectionHeight/3)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
